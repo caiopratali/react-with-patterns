@@ -13,7 +13,7 @@ const makeSut = (url = faker.internet.url()): SutTypes => {
 
   return {
     sut,
-    httpPostClientSpy,
+    httpPostClientSpy
   };
 };
 
