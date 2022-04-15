@@ -51,6 +51,7 @@
     "import/no-extraneous-dependencies": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "no-shadow": "off",
+    "react/function-component-definition": "off",
     "@typescript-eslint/no-use-before-define": [
       "error"
     ],
