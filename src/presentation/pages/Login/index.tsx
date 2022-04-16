@@ -3,6 +3,7 @@ import React from 'react';
 import { Spinner } from '@/presentation/components';
 
 import Footer from '@/presentation/components/Footer';
+import { Input } from '@/presentation/components/Form';
 import Header from './components/Header';
 
 import styles from './styles.scss';
@@ -13,8 +14,8 @@ const Login: React.FC = () => {
       <Header />
       <form action="">
         <h2>Login</h2>
-        <input type="email" name="email" placeholder="Digite o seu e-mail" />
-        <input
+        <Input type="email" name="email" placeholder="Digite o seu e-mail" />
+        <Input
           type="password"
           name="password"
           placeholder="Digite o sua senha"
