@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+* {
+  font-size: 14;
+  padding: 0;
+  margin: 0;
+  box-sizing: boder-box;
+}
+
+body {
+  background-color: $background;
+}
+
+input[type="email"], input[type="password"] {
+  border: 1px solid $primaryLight;
+  height: 2rem;
+  border-radius: 4px;
+  padding: 0 .5rem;
+
+  &:focus {
+    outline-color: $primaryLight;
+  }
+}
+
+button {
+  color: $white;
+  background-color: $primary;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  height: 3rem;
+
+  &:focus {
+    opacity: 0.9;
+  }
+}
