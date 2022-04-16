@@ -1,16 +1,16 @@
-import { Logo } from '@/presentation/components/Logo';
-import { Spinner } from '@/presentation/components/Spinner';
 import React from 'react';
+
+import { Spinner } from '@/presentation/components';
+
+import Footer from '@/presentation/components/Footer';
+import Header from './components/Header';
 
 import styles from './styles.scss';
 
 const Login: React.FC = () => {
   return (
     <div className={styles.container}>
-      <header>
-        <Logo />
-        <h1>4Dev - Enquetes para Programadores</h1>
-      </header>
+      <Header />
       <form action="">
         <h2>Login</h2>
         <input type="email" name="email" placeholder="Digite o seu e-mail" />
@@ -26,9 +26,7 @@ const Login: React.FC = () => {
           <span>Erro</span>
         </div>
       </form>
-      <footer>
-        <h1>Footer</h1>
-      </footer>
+      <Footer />
     </div>
   );
 };
