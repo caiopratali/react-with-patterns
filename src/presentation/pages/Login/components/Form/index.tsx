@@ -27,7 +27,9 @@ const Form: React.FC = () => {
           name="password"
           placeholder="Digite o sua senha"
         />
-        <button type="submit">Entrar</button>
+        <button data-testid="submit" type="submit" disabled>
+          Entrar
+        </button>
         <span>Criar conta</span>
         <Feedback />
       </form>
